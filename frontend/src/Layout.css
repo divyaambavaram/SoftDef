@@ -1,0 +1,12 @@
+.page-container {
+  display: flex;
+  margin-top: 60px;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+  flex: 1;
+  background: #f9f9f9;
+  min-height: 80vh;
+}

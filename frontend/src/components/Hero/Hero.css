@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d6efd; /* Blue */
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 80px 60px 20px 3px; /* 🔥 Pushes Hero below Navbar */
+}
+
+body {
+  padding-top: 700px; /* same as navbar height */
+}
+
+.hero-text h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.hero-btn {
+  background: white;
+  color: #0d6efd;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #f0f0f0;
+}
+
+.hero-img {
+  height: 100px;
+  object-fit: contain;
+}

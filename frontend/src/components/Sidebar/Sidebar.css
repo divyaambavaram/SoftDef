@@ -1,0 +1,78 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 18px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.sidebar__section {
+  margin-bottom: 22px;
+}
+
+.sidebar__title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 8px 0;
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar__list li {
+  font-size: 14px;
+  color: #555;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.sidebar__list li:hover {
+  color: #0d6efd;
+}
+
+.sidebar__item--active {
+  color: #0d6efd;
+}
+
+.sidebar__count {
+  color: #999;
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.sidebar__price-range {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.sidebar__range {
+  width: 100%;
+}
+
+.sidebar__colors {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebar__dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.sidebar__dot.black { background: #000; }
+.sidebar__dot.red { background: #ff4d4d; }
+.sidebar__dot.blue { background: #3b82f6; }
+.sidebar__dot.yellow { background: #facc15; }
+.sidebar__dot.pink { background: #f472b6; }

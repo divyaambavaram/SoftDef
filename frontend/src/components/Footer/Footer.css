@@ -1,0 +1,151 @@
+.footer {
+   background-color: #eaf6ff;
+  width: 100vw;          /* full viewport width */
+  padding: 40px 60px;    /* adjust as needed */
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box; /* include padding in width */
+  margin: 0;             /* remove any extra margin */
+}
+
+/* Top section: Logo + Follow + Contact */
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+/* Logo + E-Comm */
+.footer-logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.footer-logo-img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-logo h3 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Follow Us & Contact */
+.footer-contact h4,
+.footer-follow h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-contact p,
+.footer-follow p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+/* Social icons */
+.footer-follow .footer-icons {
+  margin-top: 10px;
+}
+
+.footer-follow .footer-icons a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-follow .footer-icons a:hover {
+  color: #007bff;
+}
+
+/* Bottom grid links */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.footer-grid h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-grid ul li {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-grid ul li:hover {
+  color: #007bff;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Payment icons */
+.payment-logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.payment-logos .payment-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr; /* stack sections vertically */
+    gap: 20px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr; /* two columns on tablet */
+    gap: 20px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}

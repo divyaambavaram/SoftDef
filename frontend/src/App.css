@@ -1,0 +1,22 @@
+/* Main layout below navbar */
+.main-layout {
+  display: flex;
+  padding-top: 70px; /* same as navbar height */
+  min-height: 100vh;
+  gap: 20px; /* space between sidebar and content */
+  background: #f9f9f9;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  position: sticky;
+  top: 70px; /* sticks below navbar */
+  align-self: flex-start; /* ensures sidebar height is based on content */
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import icon from "../../assets/icon.jpg"; // adjust path if needed
+import icon from "../../assets/icon.jpg"; 
 
 export default function Hero() {
   return (

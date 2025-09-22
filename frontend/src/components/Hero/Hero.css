@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0d6efd; /* Blue */
+  background: #0d6efd; 
   color: white;
   padding: 40px;
   border-radius: 8px;
-  margin: 80px 60px 20px 3px; /* 🔥 Pushes Hero below Navbar */
+  margin: 80px 60px 20px 3px; 
 }
 
 body {
-  padding-top: 700px; /* same as navbar height */
+  padding-top: 700px; 
 }
 
 .hero-text h1 {

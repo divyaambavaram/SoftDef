@@ -62,11 +62,11 @@
 }
 
 .star {
-  color: #ccc; /* Gray for empty star */
+  color: #ccc; 
   font-size: 14px;
   margin: 0 1px;
 }
 
 .star.filled {
-  color: #f5c518; /* Gold for filled star */
+  color: #f5c518; 
 }

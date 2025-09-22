@@ -6,7 +6,7 @@ import logoImage from "../../assets/logo.jpg"; // adjust path if needed
 export default function Footer() {
   return (
     <footer className="footer">
-      {/* Top section */}
+    
       <div className="footer-top">
         {/* Logo + Description */}
         <div className="footer-logo">
@@ -20,7 +20,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Follow Us */}
+      
         <div className="footer-follow">
           <h4>Follow Us</h4>
           <p>
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Contact Us */}
+      
         <div className="footer-contact">
           <h4>Contact Us</h4>
           <p>E-Comm, 4578</p>
@@ -41,12 +41,13 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom section - grid */}
+   
       <div className="footer-grid">
         <div>
           <h4>Information</h4>
           <ul>
             <li>About Us</li>
+             <li>Information</li>
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
           </ul>
@@ -54,25 +55,28 @@ export default function Footer() {
         <div>
           <h4>Service</h4>
           <ul>
-            <li>Support</li>
-            <li>FAQs</li>
-            <li>Shipping Info</li>
+            <li>About Us</li>
+             <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
         <div>
           <h4>My Account</h4>
           <ul>
-            <li>Orders</li>
-            <li>Wishlist</li>
-            <li>Profile</li>
+             <li>About Us</li>
+             <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
         <div>
           <h4>Our Offers</h4>
           <ul>
-            <li>Special Deals</li>
-            <li>Discount Coupons</li>
-            <li>Gift Cards</li>
+               <li>About Us</li>
+             <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
       </div>

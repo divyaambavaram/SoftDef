@@ -15,28 +15,26 @@ html, body {
 
 /* Navbar */
 .navbar {
-  position: fixed;       /* Fix at top */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;          /* Full screen width */
-  height: 70px;          /* Navbar height */
+  width: 100vw;          
+  height: 70px;          
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;       /* Space on left and right */
+  padding: 0 40px;      
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 1000;         /* Stay above content */
+  z-index: 1000;
 }
 
-/* Logo */
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
   color: black;
 }
 
-/* Nav links */
 .nav-links {
   display: flex;
   gap: 25px;
@@ -56,15 +54,14 @@ html, body {
   color: #0d6efd;
 }
 
-/* Cart info */
+
 .cart-info {
   font-size: 0.9rem;
   color: #333;
 }
 
-/* Ensure main content starts below navbar */
 .main-content {
-  margin-top: 70px;  /* Same as navbar height */
+  margin-top: 70px;  
 }
 
 .cart-info {
@@ -72,11 +69,11 @@ html, body {
   color: #333;
   display: flex;
   align-items: center;
-  gap: 8px; /* Space between icon and text */
+  gap: 8px; 
 }
 
 .cart-icon {
-  font-size: 1.1rem; /* Adjust icon size */
+  font-size: 1.1rem; 
 }
 
 .logo {
@@ -85,11 +82,11 @@ html, body {
   font-size: 1.5rem;
   font-weight: 700;
   color: black;
-  gap: 10px; /* space between image and text */
+  gap: 10px; 
 }
 
 .logo-img {
-  width: 40px;  /* adjust as needed */
-  height: 40px; /* adjust as needed */
+  width: 40px;  
+  height: 40px; 
   object-fit: contain;
 }
